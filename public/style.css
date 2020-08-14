@@ -1,0 +1,19 @@
+body {
+  background-color: #eee;
+}
+
+.container {
+  margin: 4em auto;
+  display: flex;
+  justify-content: center;
+}
+
+.box,
+.chatbox {
+  margin: 2em;
+  width: 400px;
+  height: 600px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: #fff;
+}
