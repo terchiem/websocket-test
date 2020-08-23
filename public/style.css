@@ -1,5 +1,6 @@
 body {
   background-color: #eee;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -8,12 +9,24 @@ body {
   justify-content: center;
 }
 
-.box,
-.chatbox {
-  margin: 2em;
+.chatbox,
+.users {
+  margin: 0 1em;
   width: 400px;
-  height: 600px;
   border: 1px solid black;
   border-radius: 6px;
   background-color: #fff;
+}
+
+.chatbox {
+  height: 600px;
+}
+
+.users {
+  padding: 0 1em;
+  height: 300px;
+}
+
+#chat {
+  margin: 0 1em;
 }
