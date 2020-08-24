@@ -2,6 +2,7 @@ const socket = io.connect('http://localhost:3000');
 
 const userName = prompt("Enter user name");
 
+// send user name to server
 socket.emit('join', { userName });
 
 const chatText = document.getElementById('chatText');
